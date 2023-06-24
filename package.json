@@ -1,0 +1,59 @@
+{
+  "name": "vscode-drizzle-noir",
+  "displayName": "Drizzle Noir",
+  "version": "0.0.1",
+  "description": "A dark theme for VS Code",
+  "main": "themes/drizzle-noir.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirheimerb/vscode-drizzle-noir.git"
+  },
+  "scripts": {
+    "list": "npx vsce ls",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "icon": "images/icon.png",
+  "publisher": "redflash",
+  "keywords": [
+    "Dark Theme",
+    "vscode-theme",
+    "vscode",
+    "theme"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "vscode": "^1.8.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "vscode": "^1.1.37"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Drizzle Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/drizzle-noir.json"
+      }
+    ]
+  },
+  "activationEvents": [],
+  "galleryBanner": {
+    "color": "#005ae6",
+    "theme": "dark"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": false,
+    "useTabs": false
+  }
+}
